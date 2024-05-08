@@ -1,0 +1,29 @@
+{
+    "name": "kokiddp/rayobyte_php",
+    "description": "Rayobyte PHP SDK",
+    "keywords": [
+        "rayobyte",
+        "proxy"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/kokiddp/rayobyte_php",
+    "authors": [
+        {
+            "name": "Gabriele Coquillard",
+            "email": "gabriele@elk-lab.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "psr/http-client": "~1.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "guzzlehttp/psr7": "^2.5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kokiddp\\RayobytePhp\\": "src/RayobytePhp"
+        }
+    }    
+}
